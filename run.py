@@ -333,7 +333,7 @@ def question(username):
         answer_random = random.randint(1, 2)
         if answer ==" galaxies seem to have some dramatic reactions inside."and answer_random==1:
             return render_template("personality_outcome/Adventurer.html",)
-        elif answer ==" it's too stunning to take my eyes off this picture."and answer_random==2:
+        elif answer ==" galaxies seem to have some dramatic reactions inside."and answer_random==2:
             return render_template("personality_outcome/Defende.html",)
         elif answer ==" it's too stunning to take my eyes off this picture."and answer_random==1:
             return render_template("personality_outcome/Entertainer.html",)

@@ -11,22 +11,22 @@
 Your browser does not support the audio element.
 </audio>
 
+
 <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 index_content">
     <div class="pre-info">
-
 
     <div class="start-btn-container">
         {% if hide_start_btn == False %}
     </div>
         <div class="wel_msg">
-        <p>{{ welcome_msg }}</p>
+        <h4 style="color:#ffffff">{{ welcome_msg }}</h4>
     </div>
-        <h2>When was the last time you looked up into the sky at the stars?</h2>
-        <h3>"The perfect match of souls and galaxies"<br>
-Let music guide you to find your deep soul through the trillions of galaxies across the universe.</h3>
+        <h2>When was the last time you looked at the starry sky?</h2><br>
+        <h3>"The perfect match of souls and galaxies"<br><br>
+        Let music guide you to find your deep soul <br>through the trillions of galaxies across the universe.</h3><br>
 <!--        <p class="start-game-msg">Click Play Game</p>-->
         <form method="GET" action="/question/{{ username }}">
-            <button class="btn start-btn">Play Game!</button>
+            <button class="btn start-btn">Play Game</button>
         </form>
         {% endif %}
     </div>
@@ -36,10 +36,10 @@ Let music guide you to find your deep soul through the trillions of galaxies acr
         {% if hide_start_btn == True %}
     <div class="sign-in">
     <h2>Welcome to the world from space telescope.<br>
-    Find where you belong through these breathtaking pictures.</h2><p></p>
-        <p>Please choose the description more likely to show how you feel when you see the picture.</p><p></p>
-        <p>Note: Headphones are recommended for better experience.</p><p></p>
-        <p>Please enter your name below before the journey starts.</p><p></p>
+    Find where you belong through breathtaking pictures.</h2>
+        <h3>Please choose the description more likely to show<br> how you feel when you see the picture.</h3><br>
+        <h4 style="text-align: left; padding-left: 140px;">Note: Headphones are recommended for better experience.</h4>
+        <h4 style="text-align: left; padding-left: 140px;">Please enter your name below before the journey starts.</h4>
         <form method="POST" action="/check_username">
             <input class="form-control name-input" type="text" id="username" name="username"
             placeholder=" Enter username (alphanumeric)" pattern="^[a-zA-Z0-9]+$" autofocus required/>

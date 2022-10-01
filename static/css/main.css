@@ -1,8 +1,10 @@
 /* ------------------------------------------------------Base Styling*/
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand>a {
     color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
-.navbar-default .navbar-brand:hover {
+.navbar-default .navbar-brand>a:hover {
     color: #b35573;
     background-color: whitesmoke;
 }
@@ -61,13 +63,14 @@
     color: #b35573;
 }
 
+
 .background {
     position: fixed;
     top: 0px;
     left: 0px;
     height:100%;
     width:100%;
-    //opacity: 0.5;
+    //opacity: 0.8;
 }
 
 .main-content {
@@ -97,6 +100,7 @@
 .sign-in {
     margin-top: 30px;
     margin-bottom: 30px;
+    color: #FFFFFF;
 }
 .name-input{
     margin: 5px;
@@ -113,6 +117,7 @@
     border-width: 1px;
     border-color: #c68c53;
     margin:5px;
+    color: #333333;
 }
 
 .start-btn-container{
