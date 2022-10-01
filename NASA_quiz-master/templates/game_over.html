@@ -1,0 +1,65 @@
+{% extends 'base.html' %} 
+
+{% block head %}
+<title>game_over| {{ title }}</title>
+{% endblock %}
+
+ {% block content %}
+<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 game_over_content">
+    <div class="game_over_msg_container col-xs-12">  
+        <h1>You Scored {{ score_str }}/100</h1>
+        <p> {{ result_msg }} </p>
+    </div>
+    <div class="col-xs-12 col-md-8 col-md-offset-2">
+        <h2>Leaderboard</h2>
+        <table class="table leaderboard-table-game-over">
+            <tbody>
+                <tr>
+                    <th class="table_row">Rank</th>
+                    <th class="table_row">Username</th>
+                    <th class="table_row">High Score</th>
+                    <th class="table_row hidden-xs">Game No.</th>
+                </tr>
+                
+                <tr>
+                    <td class="table_row">1</td>
+                    <td class="table_row">{{ leader[0] }}</td>
+                    <td class="table_row">{{ leader[1] }}</td>
+                    <td class="table_row hidden-xs">{{ leader[2] }}</td>
+                </tr>
+                <tr>
+                    <td class="table_row">2</td>
+                    <td class="table_row">{{ leader[3] }}</td>
+                    <td class="table_row">{{ leader[4] }}</td>
+                    <td class="table_row hidden-xs">{{ leader[5] }}</td>
+                </tr>
+                <tr>
+                    <td class="table_row">3</td>
+                    <td class="table_row">{{ leader[6] }}</td>
+                    <td class="table_row">{{ leader[7] }}</td>
+                    <td class="table_row hidden-xs">{{ leader[8] }}</td>
+                </tr>
+                <tr>
+                    <td class="table_row">4</td>
+                    <td class="table_row">{{ leader[9] }}</td>
+                    <td class="table_row">{{ leader[10] }}</td>
+                    <td class="table_row hidden-xs">{{ leader[11] }}</td>
+                </tr>
+                <tr>
+                    <td class="table_row">5</td>
+                    <td class="table_row">{{ leader[12] }}</td>
+                    <td class="table_row">{{ leader[13] }}</td>
+                    <td class="table_row hidden-xs">{{ leader[14] }}</td>
+                </tr>
+                
+            </tbody>
+        </table>
+     <div>
+        <form method="GET" action="/question/{{ username }}">
+            <button class="btn play-again-btn" autofocus>Play Again!</button>
+        </form>
+    </div>   
+    
+    </div>
+</div>   
+{% endblock %}

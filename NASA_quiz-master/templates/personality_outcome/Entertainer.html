@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+  <head>
+    <meta charset="utf-8">
+    <title>Entertainer</title>
+  </head>
+{% block head %}
+<!-- #######  YAY, I AM THE SOURCE EDITOR! #########-->
+  <body bgcolor="#271f52" background="../static/img/personality_outcome/Entertainer.jpg"
+        style="
+        max-width:100%;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: contain;
+		        background-attachment:fixed;
+        background-position:center
+        ">
+  </body>
+{% endblock %}
+ {% block content %}
+          <audio controls="controls" autoplay="autoplay"loop="loop" >
+      <source src="song.ogg" type="audio/ogg" />
+      <source src=../static/audio/personality_outcome/1.mp3 type="audio/mpeg" />
+<!--    Your browser does not support the audio element.-->
+    </audio>
+
+{% endblock %}
+
+
+
+

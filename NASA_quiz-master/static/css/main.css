@@ -1,0 +1,270 @@
+/* ------------------------------------------------------Base Styling*/
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand:hover {
+    color: #b35573;
+    background-color: whitesmoke;
+}
+
+.quiz-title{
+    float: left;
+    height: 30px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #b35573;
+    background-color: whitesmoke;
+}
+
+.header {
+    //opacity: 0.5;
+    background-color: #404040;
+    color: #75094c;
+}
+
+.nav-text {
+    color: black;
+}
+.footer {
+    height:30px;
+    position:fixed;
+    bottom: 0px;
+    //background-color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    width:100%;
+    opacity: 0.5;
+}
+
+.footer-text{
+    color: white;
+    margin-top: 5px;
+}
+
+.git-link{
+    color: white;
+    font-weight: bold;
+}
+
+.git-link:hover {
+    color: #b35573;
+}
+
+.background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    //opacity: 0.5;
+}
+
+.main-content {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.index_content, .quiz_content, .game_over_content, .leader_content {
+    background-color: white;
+   // text-align: center;
+    //border-radius: 10px;
+    //border-style: solid;
+   // border-width: 1px;
+   // border-color: #c68c53;
+        background-color: rgba(255,255,255,0);
+}
+
+/* ------------------------------------------------------Index Styling*/
+.index_content{
+
+    text-align: center;
+}
+
+.how-to-play{
+    text-align: left;
+}
+.sign-in {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.name-input{
+    margin: 5px;
+    width: 210px;
+    padding: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c68c53;
+    position: relative; left: 50%;
+    transform: translateX(-50%);
+}
+.sign-in-btn{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c68c53;
+    margin:5px;
+}
+
+.start-btn-container{
+    margin-bottom: 20px
+}
+.start-btn{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c68c53;
+}
+
+/* ------------------------------------------------------Quiz Styling*/
+.all-question_content{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.tree_img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.question_num {
+    text-align: left;
+}
+.attempt_num {
+    text-align: center
+}
+.cur_score {
+    text-align: right;
+}
+
+.correct_icon{
+    color: green;
+    font-size: 80px;
+    margin-top: 30px;
+    opacity: 0.5; 
+}
+
+.wrong_icon{
+    color: red;
+    font-size: 80px;
+    margin-top: 30px;
+    opacity: 0.5; 
+}
+
+.question_icon{
+    color: #cccccc;
+    font-size: 80px;
+    margin-top: 30px;
+    opacity: 0.5; 
+}
+
+.message{
+    margin-top: 30px;
+}
+
+.answer-intput{
+    margin:5px;
+    margin-top: 10px;
+    width:200px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c68c53;
+    position: relative; left: 50%;
+    transform: translateX(-50%);
+
+}
+.submit-btn{
+    margin:5px;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c68c53;
+}
+
+.next-btn{
+    margin:5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c68c53;
+}
+
+.finish-game-btn{
+    margin:5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c68c53;
+}
+
+/* ------------------------------------------------------Game Over Styling*/
+.leaderboard-table-game-over{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.play-again-btn {
+    margin-bottom:30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c68c53;
+}
+
+/* ------------------------------------------------------Leader Styling*/
+
+.leader_content {
+    text-align: center;
+}
+
+.leader_board_1{
+    text-align: center;
+}
+
+.table_row{
+    text-align: center;
+}
+
+.home-btn {
+    margin-bottom:30px;
+    margin-top:20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c68c53;
+}
+.h3, h3 {
+    //font-size: 24px;
+    color: #ffffff;
+}
+.h2, h2 {
+    //font-size: 24px;
+    color: #ffffff;
+}
+.p, p {
+    //font-size: 24px;
+    color: #ffffff;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #ffffff;
+    font-size:16px;
+}
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #ffffff;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 18px;
+}

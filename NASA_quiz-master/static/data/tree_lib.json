@@ -1,0 +1,151 @@
+[{
+        "question": 1,
+        "tree_image": "/static/img/Q1.jpg",
+        "tree_name": "test1",
+        "tree_question" : "This is the first image from the James Webb Space Telescope:<strong style='color: #ffd700'> Carina Nebula</strong><br>",
+        "question1":" What a gorgeous photo!",
+        "question2":" Feel grand.",
+        "question3":" Feel fine.",
+        "audio1": "/static/audio/Q1.mp3"
+},
+    {
+        "question": 2,
+        "tree_image": "/static/img/Q2.jpg",
+        "tree_name": "test1",
+        "tree_question" : "<strong style='color: #ffd700'>A galactic marvel by Hubble telescope</strong><br> The galaxy radiates a diffuse glow, much like an elliptical galaxy and its core of older, redder stars. This galactic marvel is known to astronomers as NGC 1156.<br>",
+        "question1":" It is so beautiful!",
+        "question2":" Feel calm.",
+        "question3":" It’s just some stars in the universe.",
+        "audio1": "/static/audio/Q2.mp3"
+    },
+    {
+        "question": 3,
+        "tree_image": "/static/img/Q3.jpg",
+        "tree_name": "test1",
+        "tree_question" : "<strong style='color: #ffd700'>Embracing a rejected star by Chandra telescope</strong><br> Zeta Ophiuchi is a star with a complicated past, having likely been ejected from its birthplace by a powerful stellar explosion.<br>",
+        "question1":" Feel depressed.",
+        "question2":" Feel inspired.",
+        "question3":" Wonder where it ends.",
+        "audio1": "/static/audio/Q3.mp3"
+    },
+    {
+        "question": 4,
+        "tree_image": "/static/img/Q4.jpg",
+        "tree_name": "test1",
+        "tree_question" : "<strong style='color: #ffd700'>A cosmic tarantula by Webb telescope </strong> <br><h4 style='color: #BDFFDE'>  NIRCam displays the Tarantula Nebula star-forming region in a new light, including tens of thousands of never-before-seen young stars that were previously shrouded in cosmic dust.</h4><br>",
+        "question1":" It’s eye-catching.",
+        "question2":" Feel thrilled.",
+        "question3":" Want to know more about it.",
+        "audio1": "/static/audio/Q4.mp3"
+    },
+    {
+        "question": 5,
+        "tree_image": "/static/img/Q5.jpg",
+        "tree_name": "test1",
+        "tree_question" : "<strong style='color: #ffd700'>First science image by IXPE telescope</strong><br> IXPE first focused its X-ray eyes on Cassiopeia A, an object consisting of the remains of a star that exploded in the 17th century. The shock waves from the explosion have swept up the surrounding gas, heating it to high temperatures and accelerating cosmic ray particles to make a cloud that glows in X-ray light.<br>",
+        "question1":" Feel powerful.",
+        "question2":" Feel mysterious.",
+        "question3":" Feel peaceful.",
+        "audio1": "/static/audio/Q5.mp3"
+    },
+    {
+        "question": 6,
+        "tree_image": "/static/img/Q6.jpg",
+        "tree_name": "test1",
+        "tree_question" : "<strong style='color: #ffd700'>The hustle and bustle of our solar system by WISE telescope</strong><br> As the diagram indicates, the PHAs tend to have more Earth-like orbits than the rest of the NEAs. The asteroid orbits are simulations of what a typical object's path around the sun might look like.<br>",
+        "question1":" Just some orbits around the sun.",
+        "question2":" It’s god’s masterpiece.",
+        "question3":" Wonder where the Earth is.",
+        "audio1": "/static/audio/Q6.mp3"
+    },
+    {
+        "question": 7,
+        "tree_image": "/static/img/Q7.jpg",
+        "tree_name": "test1",
+        "tree_question" : "<strong style='color: #ffd700'>Two overlapping galaxies by Hubble telescope</strong><br> Galaxies lie more than a billion light-years from Earth. Despite appearing to collide in this image, the alignment of the two galaxies is likely just by chance – the two are not actually interacting.<br>",
+        "question1":" Feel small in this massive universe.",
+        "question2":" Feel appreciative to see this incredible picture.",
+        "question3":" Wonder what will happen next.",
+        "audio1": "/static/audio/Q7.mp3"
+    },
+    {
+        "question": 8,
+        "tree_image": "/static/img/Q8.jpg",
+        "tree_name": "test1",
+        "tree_question" : "<strong style='color: #ffd700'>An infant star’s outburst by Hubble telescope</strong><br> This outburst is produced by an extremely young star in the earliest phase of formation. As the jet collides with material surrounding the still-forming star, the shock heats this material and causes it to glow.<br>",
+        "question1":" Like cupid's arrow.",
+        "question2":" Feel attracted.",
+        "question3":" Feel stunned.",
+        "audio1": "/static/audio/Q8.mp3"
+    },
+    {
+        "question": 9,
+        "tree_image": "/static/img/Q9.jpg",
+        "tree_name": "test1",
+        "tree_question" : "<strong style='color: #ffd700'>The flame nebula by WISE telescope</strong><br><h4 style='color: #FCC33D' It sits on the eastern hip of Orion the Hunter, a constellation most easily visible in the northern hemisphere during winter evenings.</h4><br>",
+        "question1":" Like a phoenix spreading its wings.",
+        "question2":" Like a green ghost.",
+        "question3":" Want to explore in the depths of white light.",
+        "audio1": "/static/audio/Q9.mp3"
+    },
+    {
+        "question": 10,
+        "tree_image": "/static/img/Q10.jpg",
+        "tree_name": "test1",
+        "tree_question" : "<strong style='color: #ffd700'>Part of large Magellanic cloud by Hubble telescope</strong><br> The giant red nebula (NGC 2014) and its smaller blue neighbor (NGC 2020) are part of a vast star-forming region in the Large Magellanic Cloud, a satellite galaxy of the Milky Way.<br>",
+        "question1":" What a magnificent picture!.",
+        "question2":" The match of the color is astonishing.",
+        "question3":" The universe is like an underwater world.",
+        "audio1": "/static/audio/Q10.mp3"
+    },
+    {
+        "question": 11,
+        "tree_image": "/static/img/Q11.jpg",
+        "tree_name": "test1",
+        "tree_question" : "<strong style='color: #ffd700'>A cosmic amethyst in a dying star by Chandra telescope</strong><br> On Earth, amethysts can form when gas bubbles in lava cool under the right conditions. In space, a dying star with a mass similar to the Sun is capable of producing a structure on par with the appeal of these beautiful gems.<br>",
+        "question1":" Like a glamorous jewelry.",
+        "question2":" Like a mysterious crystal ball.",
+        "question3":" Like a body cell full of liveness.",
+        "audio1": "/static/audio/Q11.mp3"
+    },
+    {
+        "question": 12,
+        "tree_image": "/static/img/Q12.jpg",
+        "tree_name": "test1",
+        "tree_question" : "<strong style='color: #ffd700'>A Peek Into Jupiter’s Inner Life by Webb telescope</strong><br> Auroras and hazes glow in this composite image of Jupiter. NIRCam has three specialized infrared filters that showcase details of the planet.<br>",
+        "question1":" Drawn into this fascinating planet.",
+        "question2":" Wonder what life could be like to live there.",
+        "question3":" Feel relaxed.",
+        "audio1": "/static/audio/Q12.mp3"
+    },
+    {
+        "question": 13,
+        "tree_image": "/static/img/Q13.jpg",
+        "tree_name": "test1",
+        "tree_question" : "<strong style='color: #ffd700'>Bubbles with titanium trigger Titanic explosions by Chandra telescope</strong><br> When a neutron star is created, the inside of the collapsing massive star bounces off the surface of the stellar core, reversing the implosion.<br>",
+        "question1":" Feel released.",
+        "question2":" Curious about the situation after the explosion.",
+        "question3":" It’s just a colorful artistic photo.",
+        "audio1": "/static/audio/Q13.mp3"
+    },
+    {
+        "question": 14,
+        "tree_image": "/static/img/Q14.jpg",
+        "tree_name": "test1",
+        "tree_question" : "<strong style='color: #ffd700'>Hubble determines the mass of isolated black holes</strong><br> This astrometric microlensing technique provided information on the mass, distance, and velocity of the black hole. The amount of deflection by the black hole's intense warping of space allowed scientists to estimate that it weighs seven solar masses.<br>",
+        "question1":"A. Wonder how deep the black hole is.",
+        "question2":"B. Black hole look scary.",
+        "question3":"C. Want to learn more about black hole.",
+        "audio1": "/static/audio/Q14.mp3"
+    },
+    {
+        "question": 15,
+        "tree_image": "/static/img/Q15.jpg",
+        "tree_name": "test1",
+        "tree_question" : "<strong style='color: #ffd700'>Galaxies burn bright like high-wattage light bulbs by WISE telescope</strong><br> These hot dust-obscured galaxies, or 'HOT DOGs', are turning out to be among the most luminous, or intrinsically bright objects known, in some cases putting out over 1,000 times more energy than our Milky Way galaxy.<br>",
+        "question1":" Galaxies seem to have some dramatic reactions inside.",
+        "question2":" It's too stunning to take my eyes off this picture.",
+        "question3":" How tiny we are and how coordinated this world is.",
+        "audio1": "/static/audio/Q15.mp3"
+    }
+]
