@@ -5,7 +5,7 @@
 * [Setup](#setup)
 
 ## General info  
-2022 NASA SPACE APPS CHALLENGE 
+2022 NASA SPACE APPS CHALLENGE  
 Challenge: LEARNING THROUGH THE LOOKING GLASS  
 Team: The Space Runner  
 
