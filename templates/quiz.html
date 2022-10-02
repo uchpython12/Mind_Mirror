@@ -76,7 +76,7 @@ Your browser does not support the audio element.
                 {% else %}
 
                     <div class="next_btn_container">
-                        {% if cur_question < 15 %}
+                        {% if cur_question <= 15 %}
 
                             <form id="form1" method="GET" action="/question/{{ username }}">
 <!--                                <button class="btn next-btn" autofocus>Next Question!</button>-->

@@ -391,12 +391,16 @@ def question(username):
                                question2=question2,
                                question3=question3,
                                audio1=audio1,
-
-
                                hide_next_btn=True,
                                answer_state=0,
                                username=username,
                                title=title)
+    elif request.method == "GET" and cur_player_data["cur_question"] <= 15:
+    # Reset game
+        cur_player_data["cur_score"] = 0
+        cur_player_data["attempt"] = 1
+        cur_player_data["cur_question"] = 1
+        cur_player_data["game_num"] += 1
 
     # For game over
     elif request.method == "GET" and cur_player_data["cur_question"] > 15:
@@ -465,6 +469,11 @@ def Adventurer():
 
     return render_template("personality_outcome/Adventurer.html",)
 
+# @app.route("/Adventurer_img")
+# def Adventurer_img():
+#     directory = os.getcwd()
+#     filename="/static/img/personality_outcome/Adventurer.jpg"
+#     return send_from_directory(directory, filename, as_attachment=True)
 if __name__ == '__main__':
     app.run(
             host="0.0.0.0",
